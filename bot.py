@@ -68,12 +68,12 @@ async def approve_join_request(_, message):
                 [
                     InlineKeyboardButton(
                         "🔔 Sᴜʙsᴄʀɪʙᴇ Tᴏ Oᴜʀ Cʜᴀɴɴᴇʟ",
-                        url="https://youtube.com/@spidey_official_777",
+                        url="https://t.me/Union_Botss",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Cᴏɴᴛᴀᴄᴛ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/hacker_x_official_777"
+                        "💬 Cᴏɴᴛᴀᴄᴛ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Union_Botss"
                     )
                 ],
             ]
@@ -124,10 +124,10 @@ async def start(bot, message):
         buttons = [
             [InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
             [
-                InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/hacker_x_official_777"),
-                InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/deathchatting_world')
+                InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/Union_Botss"),
+                InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/Union_Botss')
             ],
-            [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/+9tdbATrOMLNlN2I1")]
+            [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/Union_Botss")]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -160,12 +160,12 @@ async def start(bot, message):
 
         keyboard = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕", url="https://t.me/SPIDER_MAN_GAMING_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat")],
-                [InlineKeyboardButton("🚀 Cʜᴀɴɴᴇʟ", url="https://t.me/+cMlrPqMjUwtmNTI1"),
+                [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕", url="https://t.me/Pending_Request_Auto_Accept_Bot?startchannel=Bots4Sale&admin=invite_users+manage_chat")],
+                [InlineKeyboardButton("🚀 Cʜᴀɴɴᴇʟ", url="https://t.me/Union_Botss"),
                  InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", callback_data="group_info")],
                 [InlineKeyboardButton("ℹ️ Aʙᴏᴜᴛ", callback_data="about"),
                  InlineKeyboardButton("📃 Fᴇᴀᴛᴜʀᴇs", callback_data="features")],
-                [InlineKeyboardButton("➕  Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="https://t.me/SPIDER_MAN_GAMING_bot?startgroup=true")]
+                [InlineKeyboardButton("➕  Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="https://t.me/Pending_Request_Auto_Accept_Bot?startgroup=true")]
             ]
         )
 
@@ -199,7 +199,7 @@ async def start(bot, message):
             photo=welcome_image,
             caption=f"<b>⚠️ Access Denied! ⚠️\n\n🔥 Hello {message.from_user.mention}!\n\n"
                     "You need to join all required channels before proceeding!\n\n"
-                    "👉 [✨ Join Now ✨](https://t.me/SPIDEYOFFICIAL777)</b>",
+                    "👉 [✨ Join Now ✨](https://t.me/Union_Botss)</b>",
             reply_markup=keyboard
         )
 
