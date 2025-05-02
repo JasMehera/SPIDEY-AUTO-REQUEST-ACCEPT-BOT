@@ -235,11 +235,11 @@ async def check_subscription(_, callback_query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕", 
-                    url="https://t.me/SPIDER_MAN_GAMING_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat")],
-                [InlineKeyboardButton("🚀 Cʜᴀɴɴᴇʟ", url="https://t.me/+cMlrPqMjUwtmNTI1"), 
-                 InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SPIDEYOFFICIAL777")],
+                    url="https://t.me/Pending_Request_Auto_Accept_Bot?startchannel=Bots4Sale&admin=invite_users+manage_chat")],
+                [InlineKeyboardButton("🚀 Cʜᴀɴɴᴇʟ", url="https://t.me/Union_Botss"), 
+                 InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Union_Botss")],
                 [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", 
-                    url="https://t.me/SPIDER_MAN_GAMING_bot?startgroup=true")]
+                    url="https://t.me/Pending_Request_Auto_Accept_Bot?startgroup=true")]
             ]
         )
 
@@ -286,7 +286,7 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                         "ʀᴇᴍᴏᴠᴇʙɢ", url="https://example.com/removebg"
                     ),
                     InlineKeyboardButton(
-                        "ʜᴀᴄᴋs", url="https://github.com/Spideyofficial777"
+                        "ʜᴀᴄᴋs", url="https://t.me/Union_Botss"
                     ),
                 ],
                 [
@@ -294,12 +294,12 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                         "Rɪɴɢᴛᴏɴᴇ", url="https://example.com/ringtone"
                     ),
                     InlineKeyboardButton("Cʜᴀᴛɢᴘᴛ", url="https://example.com/chatgpt"),
-                    InlineKeyboardButton("Oᴡɴᴇʀ", callback_data="spidey"),
+                    InlineKeyboardButton("Oᴡɴᴇʀ", callback_data="Union_Owner"),
                 ],
                 [
-                    InlineKeyboardButton("Mᴏᴠɪᴇs", url="https://example.com/movies"),
+                    InlineKeyboardButton("Mᴏᴠɪᴇs", url="https://Union"),
                     InlineKeyboardButton(
-                        "Uᴘᴅᴀᴛᴇs", url="https://t.me/live_update_channel"
+                        "Uᴘᴅᴀᴛᴇs", url="https://t.me/Union_Association"
                     ),
                     InlineKeyboardButton(
                         "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SPIDEYOFFICIAL777"
