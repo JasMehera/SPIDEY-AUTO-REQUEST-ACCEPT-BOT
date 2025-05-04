@@ -41,15 +41,15 @@ API_ID = ""
 API_HASH = ""
 BOT_TOKEN = ""
 CHANNEL_IDS = [-1001959922658, -1002433552221, -1002470391435]
-LOG_CHANNEL = -1002294764885
-ADMINS = [5518489725]
-MONGO_URI = ""
+LOG_CHANNEL = -1002100963256
+ADMINS = [7518139247]
+MONGO_URI = "mongodb+srv://f00il:animeotaku109@cluster0.qhc7amc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
 # Image URLs
-xyz_welome_image_url = ""
-background_image_url = "https://i.ibb.co/RymDMxS/66e7d1b6.jpg"
-welcome_image = "https://envs.sh/v3t.jpg"
+xyz_welome_image_url = "https://envs.sh/46p.jpg"
+background_image_url = "https://envs.sh/46p.jpg"
+welcome_image = "https://envs.sh/46p.jpg"
 
 # Initialize the bot
 app = Client("approver_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -297,12 +297,12 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                     InlineKeyboardButton("Oᴡɴᴇʀ", callback_data="Union_Owner"),
                 ],
                 [
-                    InlineKeyboardButton("Mᴏᴠɪᴇs", url="https://Union"),
+                    InlineKeyboardButton("Mᴏᴠɪᴇs", url="https://Movies_Union"),
                     InlineKeyboardButton(
                         "Uᴘᴅᴀᴛᴇs", url="https://t.me/Union_Association"
                     ),
                     InlineKeyboardButton(
-                        "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SPIDEYOFFICIAL777"
+                        "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Union_Botss"
                     ),
                 ],
                 [InlineKeyboardButton("⋞ Back", callback_data="back")],
@@ -323,11 +323,11 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                 [InlineKeyboardButton("‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️", callback_data="disclaimer")],
                 [
                     InlineKeyboardButton(
-                        "• ᴠɪsɪᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url="t.me/SPIDEYOFFICIAL_777"
+                        "• ᴠɪsɪᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url="t.me/Union_Association"
                     )
                 ],
                 [
-                    InlineKeyboardButton("• ᴏᴡɴᴇʀ •", user_id=int(7965267063)),
+                    InlineKeyboardButton("• ᴏᴡɴᴇʀ •", user_id=int(7518139247)),
                     InlineKeyboardButton("• sᴏᴜʀᴄᴇ •", callback_data="source"),
                 ],
                 [InlineKeyboardButton("🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️", callback_data="rendr")],
@@ -350,7 +350,7 @@ async def on_callback_query(_, callback_query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ", url="https://t.me/hacker_x_official_777"
+                        "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ", url="https://t.me/Union_Owner"
                     )
                 ],
                 [InlineKeyboardButton("⪻ ʙᴀᴄᴋ", callback_data="about")],
@@ -377,11 +377,11 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                     "➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕",
-                    url="https://t.me/SPIDER_MAN_GAMING_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat",
+                    url="https://t.me/Pending_Request_Auto_Accept_Bot?startchannel=Bots4Sale&admin=invite_users+manage_chat",
                 )
                 ],
                 [
-                    InlineKeyboardButton("🚀 Channel", url="https://t.me/SPIDEYOFFICIAL_777"),
+                    InlineKeyboardButton("🚀 Channel", url="https://t.me/Union_Botss"),
                     InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", callback_data="group_info"),
             ],
             [
@@ -391,7 +391,7 @@ async def on_callback_query(_, callback_query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                     "➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕",
-                    url="https://t.me/SPIDER_MAN_GAMING_bot?startgroup=true",
+                    url="https://t.me/Pending_Request_Auto_Accept_Bot?startgroup=true",
                 )
             ],
         ]
@@ -411,24 +411,24 @@ async def on_callback_query(_, callback_query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×", url="https://t.me/SPIDEYOFFICIAL777"
+                    "× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×", url="https://t.me/Union_Botss"
                 )
             ],
             [
-                InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url="https://t.me/+-eCz1o7dfZ0wMmI1"),
+                InlineKeyboardButton("• ɢʀᴏᴜᴘ •", url="https://t.me/Union_Botss"),
                 InlineKeyboardButton(
-                    "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/+9tdbATrOMLNlN2I1"
+                    "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/Union_Botss"
                 ),
             ],
             [
-                InlineKeyboardButton("• ʜᴀᴄᴋ •", url="https://t.me/+cMlrPqMjUwtmNTI1"),
+                InlineKeyboardButton("• ᴡᴇʙsᴇʀɪᴇs •", url="https://t.me/Series_Union"),
                 InlineKeyboardButton(
-                    "• ᴍᴏᴠɪᴇғʟɪx •", url="https://t.me/SPIDEYOFFICIAL_777"
+                    "• ᴍᴏᴠɪᴇғʟɪx •", url="https://t.me/Movies_Union"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •", url="https://t.me/+4nyaulfn0sliZTE1"
+                    "• ᴀɴɪᴍᴇ ᴜɴɪᴏɴ •", url="https://t.me/Animes_Union"
                 )
             ],
             [InlineKeyboardButton("⪻ ʙᴀᴄᴋ •", callback_data="back")],
@@ -562,8 +562,8 @@ async def broadcast_users(bot, message):
         f"✅ **Successful:** `{success}`\n"
         f"❌ **Failed:** `{failed}`\n"
         f"🕒 **Time Taken:** `{round(time.time() - start_time, 2)} sec`\n\n"
-        f"🚀 **Broadcast by [Spidey](https://t.me/SPIDEYOFFICIAL777)**\n"
-        f"🔹 **Follow [Spidey Network](https://t.me/SPIDEY_CINEMA_X_AI_BOT)**"
+        f"🚀 **Broadcast by [Spidey](https://t.me/Union_Botss)**\n"
+        f"🔹 **Follow [Union Network](https://t.me/Union_Association)**"
     )
 @app.on_message(filters.command("send") & filters.user(ADMINS))
 async def send_msg(bot, message):
