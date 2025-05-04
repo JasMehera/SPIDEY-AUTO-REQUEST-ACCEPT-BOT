@@ -43,7 +43,7 @@ BOT_TOKEN = ""
 CHANNEL_IDS = [-1001959922658, -1002433552221, -1002470391435]
 LOG_CHANNEL = -1002100963256
 ADMINS = [7518139247]
-MONGO_URI = "mongodb+srv://f00il:animeotaku109@cluster0.qhc7amc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cluster0.fq7ee6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
 # Image URLs
