@@ -9,14 +9,14 @@ class Config:
     API_HASH = getenv("API_HASH", "")
     BOT_TOKEN = getenv("BOT_TOKEN", "")
     
-    CHANNEL_IDS = list(map(int, getenv("CHANNEL_IDS", "-1001959922658,-1002470391435,-1002433552221").split(","))) # for the multiple forcesub
+    CHANNEL_IDS = list(map(int, getenv("CHANNEL_IDS", "-1002618481745").split(","))) # for the multiple forcesub
     
     REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
     # Spidey
-    ADMINS = list(map(int, getenv("ADMINS", "5518489725").split()))
-    DATABASE_URI = getenv("DATABASE_URI", "")
+    ADMINS = list(map(int, getenv("ADMINS", "7518139247").split()))
+    DATABASE_URI = getenv("DATABASE_URI", "mongodb+srv://f00il:anler0.qhc7amc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-    LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1002294764885")) 
+    LOG_CHANNEL = int(getenv("LOG_CHANNEL", "-1002100963256")) 
 
 class temp(object):    
     U_NAME = None
